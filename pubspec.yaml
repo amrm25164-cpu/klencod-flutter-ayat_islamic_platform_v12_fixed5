@@ -1,0 +1,33 @@
+name: ayat
+description: تطبيق آيات للقرآن الكريم
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.7.0
+  just_audio: ^0.9.42
+  audio_service: ^0.18.15
+  shared_preferences: ^2.3.3
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+  connectivity_plus: ^6.1.0
+  path_provider: ^2.1.5
+  permission_handler: ^11.3.1
+  flutter_local_notifications: ^18.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: KFGQPCUthmanic
+      fonts:
+        - asset: assets/fonts/KFGQPC_Uthmanic_Script_HAFS_Regular.otf
+    - family: UthmanicHafs1
+      fonts:
+        - asset: assets/fonts/UthmanicHafs1_Ver13.otf.ttf
